@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Suraksha | Protecting You from Cyber Threats</title>
+    <meta name="description" content="Cyber Suraksha: Identify scams, report cybercrime, and stay secure online.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Grid -->
+    <div class="tech-grid"></div>
+    <div class="glowing-orb orb-1"></div>
+    <div class="glowing-orb orb-2"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-shield-halved"></i> Cyber Suraksha
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Tools</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#awareness">Awareness</a></li>
+                <li><a href="#emergency" class="nav-btn-emergency">Report 1930</a></li>
+            </ul>
+            <div class="mobile-menu-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Cyber Suraksha">Cyber Suraksha</h1>
+            <h2 class="subtitle">Protecting You from Cyber Threats</h2>
+            <p class="description">Identify scams, report cybercrime, and stay secure online in a rapidly evolving digital world.</p>
+            <div class="hero-buttons">
+                <a href="#scanner-tool" class="btn btn-primary glowing-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i> Check Suspicious Number / Email
+                </a>
+                <a href="#ai-scanner" class="btn btn-secondary glowing-btn">
+                    <i class="fa-solid fa-robot"></i> Scan for Scam
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Features Section -->
+    <section id="features" class="features-section">
+        <div class="section-header">
+            <h2>Command Center Tools</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="features-grid">
+            <!-- Tool 1 -->
+            <div class="feature-card" id="scanner-tool">
+                <div class="card-icon"><i class="fa-solid fa-phone-slash"></i></div>
+                <h3>Number & Gmail Identifier</h3>
+                <p>Check suspicious phone numbers and email IDs against our database of reported scammers.</p>
+                
+                <!-- Demo Scanner -->
+                <div class="demo-scanner">
+                    <div class="input-group">
+                        <input type="text" id="demo-input" placeholder="Enter number or email...">
+                        <button id="scan-btn" class="btn-sm"><i class="fa-solid fa-radar"></i> Scan</button>
+                    </div>
+                    <div id="scan-result" class="scan-result hidden">
+                        <div class="risk-meter">
+                            <span class="risk-label">Risk Level:</span>
+                            <span id="risk-level" class="risk-high">High</span>
+                        </div>
+                        <p id="risk-text">This number has been reported for KYC fraud.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tool 2 -->
+            <div class="feature-card" id="ai-scanner">
+                <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                <h3>AI Scam Detection</h3>
+                <p>Upload suspicious screenshots or paste messages to detect fraud patterns and malicious links.</p>
+                <div class="upload-area">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <span>Drop files or paste text here</span>
+                </div>
+            </div>
+
+            <!-- Tool 3 -->
+            <div class="feature-card">
+                <div class="card-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                <h3>Anonymous Reports</h3>
+                <p>Victims can safely share scam experiences anonymously to warn others.</p>
+                <button class="btn btn-outline btn-full">Submit Report</button>
+            </div>
+
+            <!-- Tool 4 -->
+            <div class="feature-card emergency-card">
+                <div class="card-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                <h3>Report Now</h3>
+                <p>Direct link to the National Cyber Crime Reporting Portal and 1930 Helpline.</p>
+                <a href="#emergency" class="btn btn-danger btn-full">File Complaint</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. How It Works -->
+    <section id="how-it-works" class="how-it-works-section">
+        <div class="section-header">
+            <h2>How It Works</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">01</div>
+                <div class="step-icon"><i class="fa-solid fa-keyboard"></i></div>
+                <h4>Enter Data</h4>
+                <p>Upload a screenshot, link, or enter a phone number.</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step">
+                <div class="step-number">02</div>
+                <div class="step-icon"><i class="fa-solid fa-microchip"></i></div>
+                <h4>AI Scans</h4>
+                <p>Our system analyzes for known fraud patterns.</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step">
+                <div class="step-number">03</div>
+                <div class="step-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                <h4>Get Results</h4>
+                <p>Receive instant risk assessment and alerts.</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="step">
+                <div class="step-number">04</div>
+                <div class="step-icon"><i class="fa-solid fa-file-shield"></i></div>
+                <h4>Report</h4>
+                <p>If scammed, directly report to the 1930 helpline.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Awareness Section -->
+    <section id="awareness" class="awareness-section">
+        <div class="section-header">
+            <h2>Threat Intelligence</h2>
+            <div class="header-line"></div>
+        </div>
+        <div class="awareness-grid">
+            <div class="threat-card">
+                <div class="threat-img"><i class="fa-solid fa-fish-fins"></i></div>
+                <div class="threat-info">
+                    <h4>Phishing Attacks</h4>
+                    <p>Fake emails or links pretending to be banks or officials to steal credentials.</p>
+                    <span class="tip">Tip: Always verify the sender's email address and URL.</span>
+                </div>
+            </div>
+            <div class="threat-card">
+                <div class="threat-img"><i class="fa-solid fa-mobile-retro"></i></div>
+                <div class="threat-info">
+                    <h4>OTP Fraud</h4>
+                    <p>Scammers trick you into sharing your One-Time Password to authorize transactions.</p>
+                    <span class="tip">Tip: Never share your OTP with anyone over a call.</span>
+                </div>
+            </div>
+            <div class="threat-card">
+                <div class="threat-img"><i class="fa-solid fa-user-secret"></i></div>
+                <div class="threat-info">
+                    <h4>Impersonation Calls</h4>
+                    <p>Fake police, customs, or courier calls demanding money to clear parcels or cases.</p>
+                    <span class="tip">Tip: Disconnect and call the official department directly.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Emergency Section -->
+    <section id="emergency" class="emergency-section">
+        <div class="emergency-content">
+            <i class="fa-solid fa-phone-volume emergency-icon pulse"></i>
+            <h2>Cyber Crime Helpline</h2>
+            <div class="helpline-number">1930</div>
+            <p>If you are a victim of financial cyber fraud, immediately call 1930 or report online.</p>
+            <a href="https://cybercrime.gov.in/" target="_blank" class="btn btn-emergency-action glowing-btn-red">
+                <i class="fa-solid fa-building-shield"></i> Report Now
+            </a>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3><i class="fa-solid fa-shield-halved"></i> Cyber Suraksha</h3>
+                <p>A digital initiative to spread cyber hygiene and provide tools to identify online threats.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Scam Scanner</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#awareness">Fraud Types</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Legal & Info</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cyber Suraksha. This is an awareness platform and not an official government entity.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
